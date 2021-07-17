@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+    color: white;
+    background-color: teal;
+}
+
+.work-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    background-color: #071E3D;
+    height: 90vh;
+}
+
+.draggable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 5em;
+    width: auto;
+    cursor: pointer;
+    background-color: rgb(139, 238, 130);
+    margin: 5px;
+    padding: 2em;
+}
+
+.progress {
+    height: 2em;
+    width: 2em;
+    background-color: lightcoral
+}
+
+.container {
+    height: 80vh;
+    width: 60vh;
+    background-color: tomato;
+    border: 3px solid blue;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.min-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    height: 4em;
+    background-color: thistle;
+}
+
+.heading {
+    font-size: 2em;
+    color: white;
+}
+
+.hold {
+    border: solid 4px #CCC;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border: dashed;
+}
+
+.invisible {
+    display: none;
+}
+
+.new-btn {
+    height: auto;
+    width: auto;
+    background-color: lightseagreen;
+    border: 3px inset blue;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+}

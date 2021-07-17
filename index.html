@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work productivity</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="header">
+        <h1>Work Productivity</h1>
+    </nav>
+
+    <div class="add-task">
+        <input type="text" placeholder="add a task" id="taskInput">
+        <button class="new-btn">new</button>
+    </div>
+
+    <!-- columns -->
+    <div class="work-section">
+        <div class="task-column container">
+            <div class="min-nav">
+                <h2 class="heading">task</h2>
+            </div>
+            <div class="draggable" draggable="true">
+                <h3>programming</h3>
+                <div class="progress"></div>
+            </div>
+            <div class="draggable" draggable="true">
+                <h3>gaming</h3>
+                <div class="progress"></div>
+            </div>
+            <div class="draggable" draggable="true">
+                <h3>study</h3>
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="working-columns container">
+            <div class="min-nav">
+                <h2 class="heading">Working Task</h2>
+            </div>
+        </div>
+        <div class="completed-columns container">
+            <div class="min-nav">
+                <h2 class="heading">Completed Task</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
